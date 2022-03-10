@@ -1,6 +1,9 @@
 {
   "name": "trabalho-final",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "serve": "nodemon server.js",
     "ng": "ng",
