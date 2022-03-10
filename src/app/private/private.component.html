@@ -1,0 +1,24 @@
+<div class="text-center">
+  <h1 class="text-center mb-4">Dados do usuário</h1>
+  <h5 class="text-center mb-4">Estes são os seus dados cadastrados no banco de dados</h5>
+  <form>
+    <fieldset disabled>
+      <div class="form-group">
+        <label for="userName">Nome de usuário</label>
+        <input type="text" class="form-control" id="userName" aria-describedby="userName" placeholder="{{this.user.userName}}">
+      </div>
+      <div class="form-group">
+        <label for="email">Endereço de email</label>
+        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="{{this.user.email}}">
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" class="form-control" id="senha" placeholder="{{this.user.senha}}">
+      </div>
+      <div class="form-group">
+        <label for="fullname">Nome completo do usuário</label>
+        <input type="text" class="form-control" id="fullname" aria-describedby="fullname" placeholder="{{this.user.fullname}}">
+      </div>
+    </fieldset>
+  </form>
+</div>
